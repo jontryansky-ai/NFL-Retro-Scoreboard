@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-22T18:57:50.657Z",
+  "updated_at": "2026-08-22T19:22:10.979Z",
   "teams": {
     "DEN": {
       "division": "AFC West",
@@ -99,11 +99,11 @@
       "home_away": "away",
       "team_score": 0,
       "opp_score": 0,
-      "status_detail": "7:08 - 2nd",
+      "status_detail": "0:15 - 2nd",
       "down_distance": null,
       "line_of_scrimmage": null,
       "last_play": null,
-      "display": "vs CLE: 0-0 Â· 7:08 - 2nd"
+      "display": "vs CLE: 0-0 Â· 0:15 - 2nd"
     },
     "MIA": {
       "division": "AFC East",
@@ -273,11 +273,11 @@
         "home_away": "away",
         "team_score": 0,
         "opp_score": 0,
-        "status_detail": "7:08 - 2nd",
+        "status_detail": "0:15 - 2nd",
         "down_distance": null,
         "line_of_scrimmage": null,
         "last_play": null,
-        "display": "vs CLE: 0-0 Â· 7:08 - 2nd"
+        "display": "vs CLE: 0-0 Â· 0:15 - 2nd"
       },
       {
         "abbr": "NYJ",
