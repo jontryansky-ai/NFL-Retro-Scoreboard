@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-22T20:22:37.478Z",
+  "updated_at": "2026-08-22T20:46:36.983Z",
   "teams": {
     "DEN": {
       "division": "AFC West",
@@ -99,11 +99,11 @@
       "home_away": "away",
       "team_score": 0,
       "opp_score": 0,
-      "status_detail": "12:53 - 4th",
+      "status_detail": "2:00 - 4th",
       "down_distance": null,
       "line_of_scrimmage": null,
       "last_play": null,
-      "display": "vs CLE: 0-0 Â· 12:53 - 4th"
+      "display": "vs CLE: 0-0 Â· 2:00 - 4th"
     },
     "MIA": {
       "division": "AFC East",
@@ -123,11 +123,11 @@
       "home_away": "home",
       "team_score": 0,
       "opp_score": 0,
-      "status_detail": "9:50 - 1st",
+      "status_detail": "15:00 - 2nd",
       "down_distance": null,
       "line_of_scrimmage": null,
       "last_play": null,
-      "display": "vs NYG: 0-0 Â· 9:50 - 1st"
+      "display": "vs NYG: 0-0 Â· 15:00 - 2nd"
     },
     "NE": {
       "division": "AFC East",
@@ -277,11 +277,11 @@
         "home_away": "away",
         "team_score": 0,
         "opp_score": 0,
-        "status_detail": "12:53 - 4th",
+        "status_detail": "2:00 - 4th",
         "down_distance": null,
         "line_of_scrimmage": null,
         "last_play": null,
-        "display": "vs CLE: 0-0 Â· 12:53 - 4th"
+        "display": "vs CLE: 0-0 Â· 2:00 - 4th"
       },
       {
         "abbr": "NYJ",
@@ -344,11 +344,11 @@
         "home_away": "home",
         "team_score": 0,
         "opp_score": 0,
-        "status_detail": "9:50 - 1st",
+        "status_detail": "15:00 - 2nd",
         "down_distance": null,
         "line_of_scrimmage": null,
         "last_play": null,
-        "display": "vs NYG: 0-0 Â· 9:50 - 1st"
+        "display": "vs NYG: 0-0 Â· 15:00 - 2nd"
       }
     ]
   }
