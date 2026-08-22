@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-22T20:46:36.983Z",
+  "updated_at": "2026-08-22T21:14:39.174Z",
   "teams": {
     "DEN": {
       "division": "AFC West",
@@ -85,25 +85,22 @@
       "division": "AFC East",
       "name": "Buffalo Bills",
       "team_logo": "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/logos/buf.png",
-      "record": "1-0",
+      "record": "2-0",
       "standing": null,
       "conference_seed": null,
       "division_rank": 1,
-      "division_record": "1-0",
-      "mode": "live",
+      "division_record": "2-0",
+      "mode": "final",
       "opponent": "CLE",
       "opponent_name": "Cleveland Browns",
       "opponent_logo": "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/logos/cle.png",
       "home_logo": "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/logos/cle.png",
       "away_logo": "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/logos/buf.png",
       "home_away": "away",
-      "team_score": 0,
-      "opp_score": 0,
-      "status_detail": "2:00 - 4th",
-      "down_distance": null,
-      "line_of_scrimmage": null,
-      "last_play": null,
-      "display": "vs CLE: 0-0 Â· 2:00 - 4th"
+      "team_score": null,
+      "opp_score": null,
+      "result": "T",
+      "display": "Final: [object Object]-[object Object] vs CLE"
     },
     "MIA": {
       "division": "AFC East",
@@ -123,11 +120,11 @@
       "home_away": "home",
       "team_score": 0,
       "opp_score": 0,
-      "status_detail": "15:00 - 2nd",
+      "status_detail": "5:06 - 2nd",
       "down_distance": null,
       "line_of_scrimmage": null,
       "last_play": null,
-      "display": "vs NYG: 0-0 Â· 15:00 - 2nd"
+      "display": "vs NYG: 0-0 Â· 5:06 - 2nd"
     },
     "NE": {
       "division": "AFC East",
@@ -263,25 +260,22 @@
         "division": "AFC East",
         "name": "Buffalo Bills",
         "team_logo": "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/logos/buf.png",
-        "record": "1-0",
+        "record": "2-0",
         "standing": null,
         "conference_seed": null,
         "division_rank": 1,
-        "division_record": "1-0",
-        "mode": "live",
+        "division_record": "2-0",
+        "mode": "final",
         "opponent": "CLE",
         "opponent_name": "Cleveland Browns",
         "opponent_logo": "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/logos/cle.png",
         "home_logo": "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/logos/cle.png",
         "away_logo": "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/logos/buf.png",
         "home_away": "away",
-        "team_score": 0,
-        "opp_score": 0,
-        "status_detail": "2:00 - 4th",
-        "down_distance": null,
-        "line_of_scrimmage": null,
-        "last_play": null,
-        "display": "vs CLE: 0-0 Â· 2:00 - 4th"
+        "team_score": null,
+        "opp_score": null,
+        "result": "T",
+        "display": "Final: [object Object]-[object Object] vs CLE"
       },
       {
         "abbr": "NYJ",
@@ -344,11 +338,11 @@
         "home_away": "home",
         "team_score": 0,
         "opp_score": 0,
-        "status_detail": "15:00 - 2nd",
+        "status_detail": "5:06 - 2nd",
         "down_distance": null,
         "line_of_scrimmage": null,
         "last_play": null,
-        "display": "vs NYG: 0-0 Â· 15:00 - 2nd"
+        "display": "vs NYG: 0-0 Â· 5:06 - 2nd"
       }
     ]
   }
