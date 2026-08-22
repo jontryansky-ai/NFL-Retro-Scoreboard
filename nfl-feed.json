@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-22T21:56:29.895Z",
+  "updated_at": "2026-08-22T22:17:56.223Z",
   "teams": {
     "DEN": {
       "division": "AFC West",
@@ -120,11 +120,11 @@
       "home_away": "home",
       "team_score": 0,
       "opp_score": 0,
-      "status_detail": "10:46 - 3rd",
+      "status_detail": "3:09 - 3rd",
       "down_distance": null,
       "line_of_scrimmage": null,
       "last_play": null,
-      "display": "vs NYG: 0-0 Â· 10:46 - 3rd"
+      "display": "vs NYG: 0-0 Â· 3:09 - 3rd"
     },
     "NE": {
       "division": "AFC East",
@@ -338,11 +338,11 @@
         "home_away": "home",
         "team_score": 0,
         "opp_score": 0,
-        "status_detail": "10:46 - 3rd",
+        "status_detail": "3:09 - 3rd",
         "down_distance": null,
         "line_of_scrimmage": null,
         "last_play": null,
-        "display": "vs NYG: 0-0 Â· 10:46 - 3rd"
+        "display": "vs NYG: 0-0 Â· 3:09 - 3rd"
       }
     ]
   }
