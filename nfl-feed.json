@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-22T21:14:39.174Z",
+  "updated_at": "2026-08-22T21:37:44.168Z",
   "teams": {
     "DEN": {
       "division": "AFC West",
@@ -118,13 +118,13 @@
       "home_logo": "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/logos/mia.png",
       "away_logo": "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/logos/nyg.png",
       "home_away": "home",
-      "team_score": 0,
-      "opp_score": 0,
-      "status_detail": "5:06 - 2nd",
+      "team_score": null,
+      "opp_score": null,
+      "status_detail": "Halftime",
       "down_distance": null,
       "line_of_scrimmage": null,
       "last_play": null,
-      "display": "vs NYG: 0-0 Â· 5:06 - 2nd"
+      "display": "vs NYG: [object Object]-[object Object] Â· Halftime"
     },
     "NE": {
       "division": "AFC East",
@@ -336,13 +336,13 @@
         "home_logo": "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/logos/mia.png",
         "away_logo": "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/logos/nyg.png",
         "home_away": "home",
-        "team_score": 0,
-        "opp_score": 0,
-        "status_detail": "5:06 - 2nd",
+        "team_score": null,
+        "opp_score": null,
+        "status_detail": "Halftime",
         "down_distance": null,
         "line_of_scrimmage": null,
         "last_play": null,
-        "display": "vs NYG: 0-0 Â· 5:06 - 2nd"
+        "display": "vs NYG: [object Object]-[object Object] Â· Halftime"
       }
     ]
   }
