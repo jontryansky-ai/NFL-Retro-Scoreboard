@@ -23,7 +23,8 @@ const CUTOFF_HOUR = 10; // final score shows until 10:00 local the day after the
 // TODO: set this to where your custom logos actually live, e.g.
 // "https://raw.githubusercontent.com/<you>/<repo>/main/logos"
 // or "https://<you>.github.io/<repo>/logos" if using Pages.
-const LOGO_BASE_URL = "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/logos";
+const LOGO_BASE_URL = "https://raw.githubusercontent.com/jontryansky-ai/NFL-Retro-Scoreboard/main/logos"
+
 
 function customLogoUrl(abbr) {
   return `${LOGO_BASE_URL}/${abbr.toLowerCase()}.png`;
