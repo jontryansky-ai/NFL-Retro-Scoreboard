@@ -1,0 +1,34 @@
+name: Update NFL feed
+
+on:
+  schedule:
+    # Every 15 minutes. GitHub may delay/skip runs under load, especially
+    # for public repos — treat this as "roughly every 15 min", not exact.
+    # Each run hits ~3 ESPN endpoints per team (24+ requests total), so
+    # this isn't tightened further to stay a good citizen of an unofficial API.
+    - cron: "*/15 * * * *"
+  workflow_dispatch: {} # lets you trigger it manually from the Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  update-feed:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Fetch latest scores
+        run: node fetch-feed.mjs
+
+      - name: Commit and push if changed
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Update NFL feed"
+          file_pattern: nfl-feed.json
