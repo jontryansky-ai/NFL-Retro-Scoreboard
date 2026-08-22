@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-22T23:14:10.825Z",
+  "updated_at": "2026-08-22T23:35:57.538Z",
   "teams": {
     "DEN": {
       "division": "AFC West",
@@ -31,15 +31,15 @@
       "division_rank": 4,
       "division_record": "0-1",
       "mode": "upcoming",
-      "opponent": "TB",
-      "opponent_name": "Tampa Bay Buccaneers",
-      "opponent_logo": "https://raw.githubusercontent.com/jontryansky-ai/NFL-Retro-Scoreboard/main/logos/tb.png",
-      "home_logo": "https://raw.githubusercontent.com/jontryansky-ai/NFL-Retro-Scoreboard/main/logos/tb.png",
-      "away_logo": "https://raw.githubusercontent.com/jontryansky-ai/NFL-Retro-Scoreboard/main/logos/kc.png",
-      "home_away": "away",
-      "kickoff": "2026-08-22T23:30Z",
-      "kickoff_display": "Sat, Aug 22, 7:30 PM EDT",
-      "display": "@ TB â€” Sat, Aug 22, 7:30 PM EDT"
+      "opponent": "SEA",
+      "opponent_name": "Seattle Seahawks",
+      "opponent_logo": "https://raw.githubusercontent.com/jontryansky-ai/NFL-Retro-Scoreboard/main/logos/sea.png",
+      "home_logo": "https://raw.githubusercontent.com/jontryansky-ai/NFL-Retro-Scoreboard/main/logos/kc.png",
+      "away_logo": "https://raw.githubusercontent.com/jontryansky-ai/NFL-Retro-Scoreboard/main/logos/sea.png",
+      "home_away": "home",
+      "kickoff": "2026-08-29T00:00Z",
+      "kickoff_display": "Fri, Aug 28, 8:00 PM EDT",
+      "display": "vs SEA â€” Fri, Aug 28, 8:00 PM EDT"
     },
     "LAC": {
       "division": "AFC West",
@@ -141,11 +141,11 @@
       "home_away": "home",
       "team_score": 0,
       "opp_score": 0,
-      "status_detail": "14:55 - 1st",
+      "status_detail": "6:11 - 1st",
       "down_distance": null,
       "line_of_scrimmage": null,
       "last_play": null,
-      "display": "vs PHI: 0-0 Â· 14:55 - 1st"
+      "display": "vs PHI: 0-0 Â· 6:11 - 1st"
     },
     "NYJ": {
       "division": "AFC East",
@@ -244,15 +244,15 @@
         "division_rank": 4,
         "division_record": "0-1",
         "mode": "upcoming",
-        "opponent": "TB",
-        "opponent_name": "Tampa Bay Buccaneers",
-        "opponent_logo": "https://raw.githubusercontent.com/jontryansky-ai/NFL-Retro-Scoreboard/main/logos/tb.png",
-        "home_logo": "https://raw.githubusercontent.com/jontryansky-ai/NFL-Retro-Scoreboard/main/logos/tb.png",
-        "away_logo": "https://raw.githubusercontent.com/jontryansky-ai/NFL-Retro-Scoreboard/main/logos/kc.png",
-        "home_away": "away",
-        "kickoff": "2026-08-22T23:30Z",
-        "kickoff_display": "Sat, Aug 22, 7:30 PM EDT",
-        "display": "@ TB â€” Sat, Aug 22, 7:30 PM EDT"
+        "opponent": "SEA",
+        "opponent_name": "Seattle Seahawks",
+        "opponent_logo": "https://raw.githubusercontent.com/jontryansky-ai/NFL-Retro-Scoreboard/main/logos/sea.png",
+        "home_logo": "https://raw.githubusercontent.com/jontryansky-ai/NFL-Retro-Scoreboard/main/logos/kc.png",
+        "away_logo": "https://raw.githubusercontent.com/jontryansky-ai/NFL-Retro-Scoreboard/main/logos/sea.png",
+        "home_away": "home",
+        "kickoff": "2026-08-29T00:00Z",
+        "kickoff_display": "Fri, Aug 28, 8:00 PM EDT",
+        "display": "vs SEA â€” Fri, Aug 28, 8:00 PM EDT"
       }
     ],
     "AFC East": [
@@ -318,11 +318,11 @@
         "home_away": "home",
         "team_score": 0,
         "opp_score": 0,
-        "status_detail": "14:55 - 1st",
+        "status_detail": "6:11 - 1st",
         "down_distance": null,
         "line_of_scrimmage": null,
         "last_play": null,
-        "display": "vs PHI: 0-0 Â· 14:55 - 1st"
+        "display": "vs PHI: 0-0 Â· 6:11 - 1st"
       },
       {
         "abbr": "MIA",
