@@ -17,14 +17,13 @@
 
 import { writeFile } from "node:fs/promises";
 
-const TIME_ZONE = "America/New_York"; // Eastern â€” change if you want a different cutoff zone
+const TIME_ZONE = "America/New_York"; // Eastern — change if you want a different cutoff zone
 const CUTOFF_HOUR = 10; // final score shows until 10:00 local the day after the game
 
 // TODO: set this to where your custom logos actually live, e.g.
 // "https://raw.githubusercontent.com/<you>/<repo>/main/logos"
 // or "https://<you>.github.io/<repo>/logos" if using Pages.
-const LOGO_BASE_URL = "https://raw.githubusercontent.com/jontryansky-ai/NFL-Retro-Scoreboard/main/logos"
-
+const LOGO_BASE_URL = "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/logos";
 
 function customLogoUrl(abbr) {
   return `${LOGO_BASE_URL}/${abbr.toLowerCase()}.png`;
@@ -48,6 +47,21 @@ const STANDINGS_URL =
   "https://site.web.api.espn.com/apis/v2/sports/football/nfl/standings?level=3";
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+
+// ESPN's schedule endpoint returns score as an object like
+// { value: 24, displayValue: "24" } instead of a plain number the way the
+// scoreboard endpoint does. Number(thatObject) silently becomes NaN (which
+// then serializes to null in JSON) — this handles both shapes correctly.
+function extractScore(scoreField) {
+  if (scoreField == null) return null;
+  if (typeof scoreField === "object") {
+    const raw = scoreField.value ?? scoreField.displayValue;
+    const n = Number(raw);
+    return Number.isFinite(n) ? n : null;
+  }
+  const n = Number(scoreField);
+  return Number.isFinite(n) ? n : null;
+}
 
 async function getJson(url) {
   const res = await fetch(url);
@@ -216,6 +230,8 @@ async function buildTeamEntry(abbr, config, standingsIndex) {
     const other = opp(liveEvent);
     const opponentLogo = other?.team?.abbreviation ? customLogoUrl(other.team.abbreviation) : null; // your custom logo for whichever team shows up
     const isHome = me?.homeAway === "home";
+    const teamScore = extractScore(me?.score) ?? 0;
+    const oppScore = extractScore(other?.score) ?? 0;
     return {
       ...base,
       mode: "live",
@@ -225,13 +241,13 @@ async function buildTeamEntry(abbr, config, standingsIndex) {
       home_logo: isHome ? base.team_logo : opponentLogo,
       away_logo: isHome ? opponentLogo : base.team_logo,
       home_away: me?.homeAway ?? null,
-      team_score: Number(me?.score ?? 0),
-      opp_score: Number(other?.score ?? 0),
+      team_score: teamScore,
+      opp_score: oppScore,
       status_detail: liveEvent.detail,
       down_distance: situation.downDistance,
       line_of_scrimmage: situation.yardLine,
       last_play: situation.lastPlay,
-      display: `vs ${other?.team?.abbreviation ?? "?"}: ${me?.score ?? 0}-${other?.score ?? 0} Â· ${situation.downDistance ?? liveEvent.detail}`,
+      display: `vs ${other?.team?.abbreviation ?? "?"}: ${teamScore}-${oppScore} · ${situation.downDistance ?? liveEvent.detail}`,
     };
   }
 
@@ -240,6 +256,8 @@ async function buildTeamEntry(abbr, config, standingsIndex) {
     const other = opp(lastFinal);
     const opponentLogo = other?.team?.abbreviation ? customLogoUrl(other.team.abbreviation) : null;
     const isHome = me?.homeAway === "home";
+    const teamScore = extractScore(me?.score);
+    const oppScore = extractScore(other?.score);
     return {
       ...base,
       mode: "final",
@@ -249,15 +267,17 @@ async function buildTeamEntry(abbr, config, standingsIndex) {
       home_logo: isHome ? base.team_logo : opponentLogo,
       away_logo: isHome ? opponentLogo : base.team_logo,
       home_away: me?.homeAway ?? null,
-      team_score: Number(me?.score ?? 0),
-      opp_score: Number(other?.score ?? 0),
+      team_score: teamScore,
+      opp_score: oppScore,
       result:
-        Number(me?.score ?? 0) > Number(other?.score ?? 0)
+        teamScore == null || oppScore == null
+          ? null
+          : teamScore > oppScore
           ? "W"
-          : Number(me?.score ?? 0) < Number(other?.score ?? 0)
+          : teamScore < oppScore
           ? "L"
           : "T",
-      display: `Final: ${me?.score ?? 0}-${other?.score ?? 0} vs ${other?.team?.abbreviation ?? "?"}`,
+      display: `Final: ${teamScore ?? "?"}-${oppScore ?? "?"} vs ${other?.team?.abbreviation ?? "?"}`,
     };
   }
 
@@ -277,7 +297,7 @@ async function buildTeamEntry(abbr, config, standingsIndex) {
       home_away: me?.homeAway ?? null,
       kickoff: nextUpcoming.date,
       kickoff_display: formatKickoff(nextUpcoming.date),
-      display: `${me?.homeAway === "home" ? "vs" : "@"} ${other?.team?.abbreviation ?? "?"} â€” ${formatKickoff(nextUpcoming.date)}`,
+      display: `${me?.homeAway === "home" ? "vs" : "@"} ${other?.team?.abbreviation ?? "?"} — ${formatKickoff(nextUpcoming.date)}`,
     };
   }
 
@@ -299,7 +319,7 @@ async function main() {
   }
 
   // Group into divisions and sort leader (1) -> last (4). Widgy can't sort
-  // JSON itself, so each division is pre-ordered here â€” bind a fixed slot
+  // JSON itself, so each division is pre-ordered here — bind a fixed slot
   // like divisions["AFC West"][0] and it'll always show whoever's in 1st.
   const divisions = {};
   for (const [abbr, config] of Object.entries(TEAMS)) {
