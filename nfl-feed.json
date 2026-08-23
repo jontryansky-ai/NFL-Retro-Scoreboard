@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-23T02:37:10.175Z",
+  "updated_at": "2026-08-23T03:34:59.205Z",
   "teams": {
     "DEN": {
       "division": "AFC West",
@@ -29,21 +29,18 @@
       "standing": null,
       "conference_seed": null,
       "division_rank": 4,
-      "division_record": "0-1",
-      "mode": "live",
+      "division_record": "0-2",
+      "mode": "final",
       "opponent": "TB",
       "opponent_name": "Tampa Bay Buccaneers",
       "opponent_logo": "https://raw.githubusercontent.com/jontryansky-ai/NFL-Retro-Scoreboard/main/logos/tb.png",
       "home_logo": "https://raw.githubusercontent.com/jontryansky-ai/NFL-Retro-Scoreboard/main/logos/tb.png",
       "away_logo": "https://raw.githubusercontent.com/jontryansky-ai/NFL-Retro-Scoreboard/main/logos/kc.png",
       "home_away": "away",
-      "team_score": 0,
-      "opp_score": 0,
-      "status_detail": "2:00 - 4th",
-      "down_distance": null,
-      "line_of_scrimmage": null,
-      "last_play": null,
-      "display": "vs TB: 0-0 Â· 2:00 - 4th"
+      "team_score": null,
+      "opp_score": null,
+      "result": "T",
+      "display": "Final: [object Object]-[object Object] vs TB"
     },
     "LAC": {
       "division": "AFC West",
@@ -243,21 +240,18 @@
         "standing": null,
         "conference_seed": null,
         "division_rank": 4,
-        "division_record": "0-1",
-        "mode": "live",
+        "division_record": "0-2",
+        "mode": "final",
         "opponent": "TB",
         "opponent_name": "Tampa Bay Buccaneers",
         "opponent_logo": "https://raw.githubusercontent.com/jontryansky-ai/NFL-Retro-Scoreboard/main/logos/tb.png",
         "home_logo": "https://raw.githubusercontent.com/jontryansky-ai/NFL-Retro-Scoreboard/main/logos/tb.png",
         "away_logo": "https://raw.githubusercontent.com/jontryansky-ai/NFL-Retro-Scoreboard/main/logos/kc.png",
         "home_away": "away",
-        "team_score": 0,
-        "opp_score": 0,
-        "status_detail": "2:00 - 4th",
-        "down_distance": null,
-        "line_of_scrimmage": null,
-        "last_play": null,
-        "display": "vs TB: 0-0 Â· 2:00 - 4th"
+        "team_score": null,
+        "opp_score": null,
+        "result": "T",
+        "display": "Final: [object Object]-[object Object] vs TB"
       }
     ],
     "AFC East": [
