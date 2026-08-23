@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-22T23:56:21.916Z",
+  "updated_at": "2026-08-23T01:05:09.591Z",
   "teams": {
     "DEN": {
       "division": "AFC West",
@@ -37,13 +37,13 @@
       "home_logo": "https://raw.githubusercontent.com/jontryansky-ai/NFL-Retro-Scoreboard/main/logos/tb.png",
       "away_logo": "https://raw.githubusercontent.com/jontryansky-ai/NFL-Retro-Scoreboard/main/logos/kc.png",
       "home_away": "away",
-      "team_score": 0,
-      "opp_score": 0,
-      "status_detail": "7:17 - 1st",
+      "team_score": null,
+      "opp_score": null,
+      "status_detail": "Halftime",
       "down_distance": null,
       "line_of_scrimmage": null,
       "last_play": null,
-      "display": "vs TB: 0-0 Â· 7:17 - 1st"
+      "display": "vs TB: [object Object]-[object Object] Â· Halftime"
     },
     "LAC": {
       "division": "AFC West",
@@ -145,11 +145,11 @@
       "home_away": "home",
       "team_score": 0,
       "opp_score": 0,
-      "status_detail": "11:06 - 2nd",
+      "status_detail": "7:54 - 3rd",
       "down_distance": null,
       "line_of_scrimmage": null,
       "last_play": null,
-      "display": "vs PHI: 0-0 Â· 11:06 - 2nd"
+      "display": "vs PHI: 0-0 Â· 7:54 - 3rd"
     },
     "NYJ": {
       "division": "AFC East",
@@ -254,13 +254,13 @@
         "home_logo": "https://raw.githubusercontent.com/jontryansky-ai/NFL-Retro-Scoreboard/main/logos/tb.png",
         "away_logo": "https://raw.githubusercontent.com/jontryansky-ai/NFL-Retro-Scoreboard/main/logos/kc.png",
         "home_away": "away",
-        "team_score": 0,
-        "opp_score": 0,
-        "status_detail": "7:17 - 1st",
+        "team_score": null,
+        "opp_score": null,
+        "status_detail": "Halftime",
         "down_distance": null,
         "line_of_scrimmage": null,
         "last_play": null,
-        "display": "vs TB: 0-0 Â· 7:17 - 1st"
+        "display": "vs TB: [object Object]-[object Object] Â· Halftime"
       }
     ],
     "AFC East": [
@@ -326,11 +326,11 @@
         "home_away": "home",
         "team_score": 0,
         "opp_score": 0,
-        "status_detail": "11:06 - 2nd",
+        "status_detail": "7:54 - 3rd",
         "down_distance": null,
         "line_of_scrimmage": null,
         "last_play": null,
-        "display": "vs PHI: 0-0 Â· 11:06 - 2nd"
+        "display": "vs PHI: 0-0 Â· 7:54 - 3rd"
       },
       {
         "abbr": "MIA",
