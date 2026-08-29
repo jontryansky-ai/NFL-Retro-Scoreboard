@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-29T11:16:22.673Z",
+  "updated_at": "2026-08-29T15:43:30.986Z",
   "teams": {
     "DEN": {
       "division": "AFC West",
@@ -10,17 +10,8 @@
       "conference_seed": null,
       "division_rank": 1,
       "division_record": "2-1",
-      "mode": "final",
-      "opponent": "MIN",
-      "opponent_name": "Minnesota Vikings",
-      "opponent_logo": "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/logos/min.png",
-      "home_logo": "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/logos/den.png",
-      "away_logo": "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/logos/min.png",
-      "home_away": "home",
-      "team_score": 34,
-      "opp_score": 6,
-      "result": "W",
-      "display": "Final: 34-6 vs MIN"
+      "mode": "none",
+      "display": "No game scheduled"
     },
     "KC": {
       "division": "AFC West",
@@ -31,17 +22,8 @@
       "conference_seed": null,
       "division_rank": 4,
       "division_record": "0-2-1",
-      "mode": "final",
-      "opponent": "SEA",
-      "opponent_name": "Seattle Seahawks",
-      "opponent_logo": "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/logos/sea.png",
-      "home_logo": "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/logos/kc.png",
-      "away_logo": "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/logos/sea.png",
-      "home_away": "home",
-      "team_score": 9,
-      "opp_score": 9,
-      "result": "T",
-      "display": "Final: 9-9 vs SEA"
+      "mode": "none",
+      "display": "No game scheduled"
     },
     "LAC": {
       "division": "AFC West",
@@ -88,17 +70,8 @@
       "conference_seed": null,
       "division_rank": 4,
       "division_record": "0-3",
-      "mode": "final",
-      "opponent": "ATL",
-      "opponent_name": "Atlanta Falcons",
-      "opponent_logo": "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/logos/atl.png",
-      "home_logo": "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/logos/mia.png",
-      "away_logo": "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/logos/atl.png",
-      "home_away": "home",
-      "team_score": 12,
-      "opp_score": 17,
-      "result": "L",
-      "display": "Final: 12-17 vs ATL"
+      "mode": "none",
+      "display": "No game scheduled"
     },
     "NE": {
       "division": "AFC East",
@@ -121,17 +94,8 @@
       "conference_seed": null,
       "division_rank": 3,
       "division_record": "1-2",
-      "mode": "final",
-      "opponent": "NYG",
-      "opponent_name": "New York Giants",
-      "opponent_logo": "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/logos/nyg.png",
-      "home_logo": "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/logos/nyj.png",
-      "away_logo": "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/logos/nyg.png",
-      "home_away": "home",
-      "team_score": 6,
-      "opp_score": 23,
-      "result": "L",
-      "display": "Final: 6-23 vs NYG"
+      "mode": "none",
+      "display": "No game scheduled"
     }
   },
   "divisions": {
@@ -146,17 +110,8 @@
         "conference_seed": null,
         "division_rank": 1,
         "division_record": "2-1",
-        "mode": "final",
-        "opponent": "MIN",
-        "opponent_name": "Minnesota Vikings",
-        "opponent_logo": "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/logos/min.png",
-        "home_logo": "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/logos/den.png",
-        "away_logo": "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/logos/min.png",
-        "home_away": "home",
-        "team_score": 34,
-        "opp_score": 6,
-        "result": "W",
-        "display": "Final: 34-6 vs MIN"
+        "mode": "none",
+        "display": "No game scheduled"
       },
       {
         "abbr": "LAC",
@@ -194,17 +149,8 @@
         "conference_seed": null,
         "division_rank": 4,
         "division_record": "0-2-1",
-        "mode": "final",
-        "opponent": "SEA",
-        "opponent_name": "Seattle Seahawks",
-        "opponent_logo": "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/logos/sea.png",
-        "home_logo": "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/logos/kc.png",
-        "away_logo": "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/logos/sea.png",
-        "home_away": "home",
-        "team_score": 9,
-        "opp_score": 9,
-        "result": "T",
-        "display": "Final: 9-9 vs SEA"
+        "mode": "none",
+        "display": "No game scheduled"
       }
     ],
     "AFC East": [
@@ -244,17 +190,8 @@
         "conference_seed": null,
         "division_rank": 3,
         "division_record": "1-2",
-        "mode": "final",
-        "opponent": "NYG",
-        "opponent_name": "New York Giants",
-        "opponent_logo": "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/logos/nyg.png",
-        "home_logo": "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/logos/nyj.png",
-        "away_logo": "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/logos/nyg.png",
-        "home_away": "home",
-        "team_score": 6,
-        "opp_score": 23,
-        "result": "L",
-        "display": "Final: 6-23 vs NYG"
+        "mode": "none",
+        "display": "No game scheduled"
       },
       {
         "abbr": "MIA",
@@ -266,17 +203,8 @@
         "conference_seed": null,
         "division_rank": 4,
         "division_record": "0-3",
-        "mode": "final",
-        "opponent": "ATL",
-        "opponent_name": "Atlanta Falcons",
-        "opponent_logo": "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/logos/atl.png",
-        "home_logo": "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/logos/mia.png",
-        "away_logo": "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/logos/atl.png",
-        "home_away": "home",
-        "team_score": 12,
-        "opp_score": 17,
-        "result": "L",
-        "display": "Final: 12-17 vs ATL"
+        "mode": "none",
+        "display": "No game scheduled"
       }
     ]
   }
