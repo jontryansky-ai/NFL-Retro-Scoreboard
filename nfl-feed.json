@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-09T23:17:08.207Z",
+  "updated_at": "2026-09-10T01:15:00.976Z",
   "teams": {
     "DEN": {
       "division": "AFC West",
@@ -130,16 +130,20 @@
       "conference_seed": null,
       "division_rank": 3,
       "division_record": "0-0",
-      "mode": "upcoming",
+      "mode": "live",
       "opponent": "SEA",
       "opponent_name": "Seattle Seahawks",
       "opponent_logo": "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/logos/sea.png",
       "home_logo": "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/logos/sea.png",
       "away_logo": "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/logos/ne.png",
       "home_away": "away",
-      "kickoff": "2026-09-10T00:20Z",
-      "kickoff_display": "Wed, Sep 9, 8:20 PM EDT",
-      "display": "@ SEA — Wed, Sep 9, 8:20 PM EDT"
+      "team_score": 0,
+      "opp_score": 0,
+      "status_detail": "6:45 - 2nd",
+      "down_distance": null,
+      "line_of_scrimmage": null,
+      "last_play": null,
+      "display": "vs SEA: 0-0 · 6:45 - 2nd"
     },
     "NYJ": {
       "division": "AFC East",
@@ -302,16 +306,20 @@
         "conference_seed": null,
         "division_rank": 3,
         "division_record": "0-0",
-        "mode": "upcoming",
+        "mode": "live",
         "opponent": "SEA",
         "opponent_name": "Seattle Seahawks",
         "opponent_logo": "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/logos/sea.png",
         "home_logo": "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/logos/sea.png",
         "away_logo": "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/logos/ne.png",
         "home_away": "away",
-        "kickoff": "2026-09-10T00:20Z",
-        "kickoff_display": "Wed, Sep 9, 8:20 PM EDT",
-        "display": "@ SEA — Wed, Sep 9, 8:20 PM EDT"
+        "team_score": 0,
+        "opp_score": 0,
+        "status_detail": "6:45 - 2nd",
+        "down_distance": null,
+        "line_of_scrimmage": null,
+        "last_play": null,
+        "display": "vs SEA: 0-0 · 6:45 - 2nd"
       },
       {
         "abbr": "NYJ",
