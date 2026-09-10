@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-10T11:02:59.264Z",
+  "updated_at": "2026-09-10T14:58:16.776Z",
   "teams": {
     "DEN": {
       "division": "AFC West",
@@ -130,17 +130,16 @@
       "conference_seed": null,
       "division_rank": 4,
       "division_record": "0-1",
-      "mode": "final",
-      "opponent": "SEA",
-      "opponent_name": "Seattle Seahawks",
-      "opponent_logo": "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/logos/sea.png",
-      "home_logo": "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/logos/sea.png",
-      "away_logo": "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/logos/ne.png",
-      "home_away": "away",
-      "team_score": 10,
-      "opp_score": 13,
-      "result": "L",
-      "display": "Final: 10-13 vs SEA"
+      "mode": "upcoming",
+      "opponent": "PIT",
+      "opponent_name": "Pittsburgh Steelers",
+      "opponent_logo": "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/logos/pit.png",
+      "home_logo": "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/logos/ne.png",
+      "away_logo": "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/logos/pit.png",
+      "home_away": "home",
+      "kickoff": "2026-09-20T17:00Z",
+      "kickoff_display": "Sun, Sep 20, 1:00 PM EDT",
+      "display": "vs PIT — Sun, Sep 20, 1:00 PM EDT"
     },
     "NYJ": {
       "division": "AFC East",
@@ -324,17 +323,16 @@
         "conference_seed": null,
         "division_rank": 4,
         "division_record": "0-1",
-        "mode": "final",
-        "opponent": "SEA",
-        "opponent_name": "Seattle Seahawks",
-        "opponent_logo": "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/logos/sea.png",
-        "home_logo": "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/logos/sea.png",
-        "away_logo": "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/logos/ne.png",
-        "home_away": "away",
-        "team_score": 10,
-        "opp_score": 13,
-        "result": "L",
-        "display": "Final: 10-13 vs SEA"
+        "mode": "upcoming",
+        "opponent": "PIT",
+        "opponent_name": "Pittsburgh Steelers",
+        "opponent_logo": "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/logos/pit.png",
+        "home_logo": "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/logos/ne.png",
+        "away_logo": "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/logos/pit.png",
+        "home_away": "home",
+        "kickoff": "2026-09-20T17:00Z",
+        "kickoff_display": "Sun, Sep 20, 1:00 PM EDT",
+        "display": "vs PIT — Sun, Sep 20, 1:00 PM EDT"
       }
     ]
   }
