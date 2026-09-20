@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-20T14:46:21.579Z",
+  "updated_at": "2026-09-20T17:50:22.332Z",
   "teams": {
     "DEN": {
       "division": "AFC West",
@@ -130,16 +130,20 @@
       "conference_seed": null,
       "division_rank": 4,
       "division_record": "0-1",
-      "mode": "upcoming",
+      "mode": "live",
       "opponent": "PIT",
       "opponent_name": "Pittsburgh Steelers",
       "opponent_logo": "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/logos/pit.png",
       "home_logo": "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/logos/ne.png",
       "away_logo": "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/logos/pit.png",
       "home_away": "home",
-      "kickoff": "2026-09-20T17:00Z",
-      "kickoff_display": "Sun, Sep 20, 1:00 PM EDT",
-      "display": "vs PIT — Sun, Sep 20, 1:00 PM EDT"
+      "team_score": 0,
+      "opp_score": 0,
+      "status_detail": "12:12 - 2nd",
+      "down_distance": null,
+      "line_of_scrimmage": null,
+      "last_play": null,
+      "display": "vs PIT: 0-0 · 12:12 - 2nd"
     },
     "NYJ": {
       "division": "AFC East",
@@ -150,16 +154,20 @@
       "conference_seed": null,
       "division_rank": 2,
       "division_record": "1-0",
-      "mode": "upcoming",
+      "mode": "live",
       "opponent": "GB",
       "opponent_name": "Green Bay Packers",
       "opponent_logo": "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/logos/gb.png",
       "home_logo": "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/logos/nyj.png",
       "away_logo": "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/logos/gb.png",
       "home_away": "home",
-      "kickoff": "2026-09-20T17:00Z",
-      "kickoff_display": "Sun, Sep 20, 1:00 PM EDT",
-      "display": "vs GB — Sun, Sep 20, 1:00 PM EDT"
+      "team_score": 0,
+      "opp_score": 0,
+      "status_detail": "1:00 - 1st",
+      "down_distance": null,
+      "line_of_scrimmage": null,
+      "last_play": null,
+      "display": "vs GB: 0-0 · 1:00 - 1st"
     }
   },
   "divisions": {
@@ -281,16 +289,20 @@
         "conference_seed": null,
         "division_rank": 2,
         "division_record": "1-0",
-        "mode": "upcoming",
+        "mode": "live",
         "opponent": "GB",
         "opponent_name": "Green Bay Packers",
         "opponent_logo": "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/logos/gb.png",
         "home_logo": "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/logos/nyj.png",
         "away_logo": "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/logos/gb.png",
         "home_away": "home",
-        "kickoff": "2026-09-20T17:00Z",
-        "kickoff_display": "Sun, Sep 20, 1:00 PM EDT",
-        "display": "vs GB — Sun, Sep 20, 1:00 PM EDT"
+        "team_score": 0,
+        "opp_score": 0,
+        "status_detail": "1:00 - 1st",
+        "down_distance": null,
+        "line_of_scrimmage": null,
+        "last_play": null,
+        "display": "vs GB: 0-0 · 1:00 - 1st"
       },
       {
         "abbr": "MIA",
@@ -323,16 +335,20 @@
         "conference_seed": null,
         "division_rank": 4,
         "division_record": "0-1",
-        "mode": "upcoming",
+        "mode": "live",
         "opponent": "PIT",
         "opponent_name": "Pittsburgh Steelers",
         "opponent_logo": "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/logos/pit.png",
         "home_logo": "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/logos/ne.png",
         "away_logo": "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/logos/pit.png",
         "home_away": "home",
-        "kickoff": "2026-09-20T17:00Z",
-        "kickoff_display": "Sun, Sep 20, 1:00 PM EDT",
-        "display": "vs PIT — Sun, Sep 20, 1:00 PM EDT"
+        "team_score": 0,
+        "opp_score": 0,
+        "status_detail": "12:12 - 2nd",
+        "down_distance": null,
+        "line_of_scrimmage": null,
+        "last_play": null,
+        "display": "vs PIT: 0-0 · 12:12 - 2nd"
       }
     ]
   }
