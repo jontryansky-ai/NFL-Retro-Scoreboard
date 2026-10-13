@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-13T07:16:15.219Z",
+  "updated_at": "2026-10-13T15:11:02.208Z",
   "teams": {
     "DEN": {
       "division": "AFC West",
@@ -90,17 +90,16 @@
       "conference_seed": null,
       "division_rank": 1,
       "division_record": "4-1",
-      "mode": "final",
-      "opponent": "LAR",
-      "opponent_name": "Los Angeles Rams",
-      "opponent_logo": "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/logos/lar.png",
-      "home_logo": "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/logos/lar.png",
+      "mode": "upcoming",
+      "opponent": "LV",
+      "opponent_name": "Las Vegas Raiders",
+      "opponent_logo": "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/logos/lv.png",
+      "home_logo": "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/logos/lv.png",
       "away_logo": "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/logos/buf.png",
       "home_away": "away",
-      "team_score": 37,
-      "opp_score": 34,
-      "result": "W",
-      "display": "Final: 37-34 vs LAR"
+      "kickoff": "2026-10-18T20:25Z",
+      "kickoff_display": "Sun, Oct 18, 4:25 PM EDT",
+      "display": "@ LV — Sun, Oct 18, 4:25 PM EDT"
     },
     "MIA": {
       "division": "AFC East",
@@ -261,17 +260,16 @@
         "conference_seed": null,
         "division_rank": 1,
         "division_record": "4-1",
-        "mode": "final",
-        "opponent": "LAR",
-        "opponent_name": "Los Angeles Rams",
-        "opponent_logo": "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/logos/lar.png",
-        "home_logo": "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/logos/lar.png",
+        "mode": "upcoming",
+        "opponent": "LV",
+        "opponent_name": "Las Vegas Raiders",
+        "opponent_logo": "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/logos/lv.png",
+        "home_logo": "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/logos/lv.png",
         "away_logo": "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/logos/buf.png",
         "home_away": "away",
-        "team_score": 37,
-        "opp_score": 34,
-        "result": "W",
-        "display": "Final: 37-34 vs LAR"
+        "kickoff": "2026-10-18T20:25Z",
+        "kickoff_display": "Sun, Oct 18, 4:25 PM EDT",
+        "display": "@ LV — Sun, Oct 18, 4:25 PM EDT"
       },
       {
         "abbr": "NE",
