@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-12T18:27:40.211Z",
+  "updated_at": "2026-10-13T00:54:27.278Z",
   "teams": {
     "DEN": {
       "division": "AFC West",
@@ -90,16 +90,20 @@
       "conference_seed": null,
       "division_rank": 1,
       "division_record": "3-1",
-      "mode": "upcoming",
+      "mode": "live",
       "opponent": "LAR",
       "opponent_name": "Los Angeles Rams",
       "opponent_logo": "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/logos/lar.png",
       "home_logo": "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/logos/lar.png",
       "away_logo": "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/logos/buf.png",
       "home_away": "away",
-      "kickoff": "2026-10-13T00:15Z",
-      "kickoff_display": "Mon, Oct 12, 8:15 PM EDT",
-      "display": "@ LAR — Mon, Oct 12, 8:15 PM EDT"
+      "team_score": 0,
+      "opp_score": 0,
+      "status_detail": "11:02 - 2nd",
+      "down_distance": null,
+      "line_of_scrimmage": null,
+      "last_play": null,
+      "display": "vs LAR: 0-0 · 11:02 - 2nd"
     },
     "MIA": {
       "division": "AFC East",
@@ -260,16 +264,20 @@
         "conference_seed": null,
         "division_rank": 1,
         "division_record": "3-1",
-        "mode": "upcoming",
+        "mode": "live",
         "opponent": "LAR",
         "opponent_name": "Los Angeles Rams",
         "opponent_logo": "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/logos/lar.png",
         "home_logo": "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/logos/lar.png",
         "away_logo": "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/logos/buf.png",
         "home_away": "away",
-        "kickoff": "2026-10-13T00:15Z",
-        "kickoff_display": "Mon, Oct 12, 8:15 PM EDT",
-        "display": "@ LAR — Mon, Oct 12, 8:15 PM EDT"
+        "team_score": 0,
+        "opp_score": 0,
+        "status_detail": "11:02 - 2nd",
+        "down_distance": null,
+        "line_of_scrimmage": null,
+        "last_play": null,
+        "display": "vs LAR: 0-0 · 11:02 - 2nd"
       },
       {
         "abbr": "NE",
