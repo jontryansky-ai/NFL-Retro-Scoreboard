@@ -1,10 +1,25 @@
 {
-  "updated_at": "2026-10-15T21:37:30.218Z",
+  "updated_at": "2026-10-15T23:51:31.517Z",
   "teams": {
     "DEN": {
       "division": "AFC West",
-      "mode": "error",
-      "display": "Data unavailable"
+      "name": "Denver Broncos",
+      "team_logo": "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/logos/den.png",
+      "record": "3-2",
+      "standing": "2nd in AFC West",
+      "conference_seed": null,
+      "division_rank": 2,
+      "division_record": "3-2",
+      "mode": "upcoming",
+      "opponent": "SEA",
+      "opponent_name": "Seattle Seahawks",
+      "opponent_logo": "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/logos/sea.png",
+      "home_logo": "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/logos/den.png",
+      "away_logo": "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/logos/sea.png",
+      "home_away": "home",
+      "kickoff": "2026-10-16T00:15Z",
+      "kickoff_display": "Thu, Oct 15, 8:15 PM EDT",
+      "display": "vs SEA — Thu, Oct 15, 8:15 PM EDT"
     },
     "KC": {
       "division": "AFC West",
@@ -171,6 +186,27 @@
         "display": "vs LAC — Sun, Oct 18, 4:25 PM EDT"
       },
       {
+        "abbr": "DEN",
+        "division": "AFC West",
+        "name": "Denver Broncos",
+        "team_logo": "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/logos/den.png",
+        "record": "3-2",
+        "standing": "2nd in AFC West",
+        "conference_seed": null,
+        "division_rank": 2,
+        "division_record": "3-2",
+        "mode": "upcoming",
+        "opponent": "SEA",
+        "opponent_name": "Seattle Seahawks",
+        "opponent_logo": "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/logos/sea.png",
+        "home_logo": "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/logos/den.png",
+        "away_logo": "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/logos/sea.png",
+        "home_away": "home",
+        "kickoff": "2026-10-16T00:15Z",
+        "kickoff_display": "Thu, Oct 15, 8:15 PM EDT",
+        "display": "vs SEA — Thu, Oct 15, 8:15 PM EDT"
+      },
+      {
         "abbr": "LV",
         "division": "AFC West",
         "name": "Las Vegas Raiders",
@@ -211,12 +247,6 @@
         "kickoff": "2026-10-18T20:25Z",
         "kickoff_display": "Sun, Oct 18, 4:25 PM EDT",
         "display": "@ KC — Sun, Oct 18, 4:25 PM EDT"
-      },
-      {
-        "abbr": "DEN",
-        "division": "AFC West",
-        "mode": "error",
-        "display": "Data unavailable"
       }
     ],
     "AFC East": [
