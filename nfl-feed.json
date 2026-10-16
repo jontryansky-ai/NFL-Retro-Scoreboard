@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-16T12:44:12.473Z",
+  "updated_at": "2026-10-16T16:59:06.228Z",
   "teams": {
     "DEN": {
       "division": "AFC West",
@@ -10,17 +10,16 @@
       "conference_seed": null,
       "division_rank": 2,
       "division_record": "4-2",
-      "mode": "final",
-      "opponent": "SEA",
-      "opponent_name": "Seattle Seahawks",
-      "opponent_logo": "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/logos/sea.png",
-      "home_logo": "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/logos/den.png",
-      "away_logo": "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/logos/sea.png",
-      "home_away": "home",
-      "team_score": 17,
-      "opp_score": 14,
-      "result": "W",
-      "display": "Final: 17-14 vs SEA"
+      "mode": "upcoming",
+      "opponent": "ARI",
+      "opponent_name": "Arizona Cardinals",
+      "opponent_logo": "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/logos/ari.png",
+      "home_logo": "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/logos/ari.png",
+      "away_logo": "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/logos/den.png",
+      "home_away": "away",
+      "kickoff": "2026-10-25T20:05Z",
+      "kickoff_display": "Sun, Oct 25, 4:05 PM EDT",
+      "display": "@ ARI — Sun, Oct 25, 4:05 PM EDT"
     },
     "KC": {
       "division": "AFC West",
@@ -196,17 +195,16 @@
         "conference_seed": null,
         "division_rank": 2,
         "division_record": "4-2",
-        "mode": "final",
-        "opponent": "SEA",
-        "opponent_name": "Seattle Seahawks",
-        "opponent_logo": "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/logos/sea.png",
-        "home_logo": "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/logos/den.png",
-        "away_logo": "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/logos/sea.png",
-        "home_away": "home",
-        "team_score": 17,
-        "opp_score": 14,
-        "result": "W",
-        "display": "Final: 17-14 vs SEA"
+        "mode": "upcoming",
+        "opponent": "ARI",
+        "opponent_name": "Arizona Cardinals",
+        "opponent_logo": "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/logos/ari.png",
+        "home_logo": "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/logos/ari.png",
+        "away_logo": "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/logos/den.png",
+        "home_away": "away",
+        "kickoff": "2026-10-25T20:05Z",
+        "kickoff_display": "Sun, Oct 25, 4:05 PM EDT",
+        "display": "@ ARI — Sun, Oct 25, 4:05 PM EDT"
       },
       {
         "abbr": "LV",
