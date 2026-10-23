@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-23T10:19:57.479Z",
+  "updated_at": "2026-10-23T15:18:28.237Z",
   "teams": {
     "DEN": {
       "division": "AFC West",
@@ -130,17 +130,16 @@
       "conference_seed": null,
       "division_rank": 2,
       "division_record": "4-3",
-      "mode": "final",
-      "opponent": "CHI",
-      "opponent_name": "Chicago Bears",
-      "opponent_logo": "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/logos/chi.png",
-      "home_logo": "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/logos/chi.png",
+      "mode": "upcoming",
+      "opponent": "MIA",
+      "opponent_name": "Miami Dolphins",
+      "opponent_logo": "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/logos/mia.png",
+      "home_logo": "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/logos/mia.png",
       "away_logo": "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/logos/ne.png",
       "home_away": "away",
-      "team_score": 24,
-      "opp_score": 30,
-      "result": "L",
-      "display": "Final: 24-30 vs CHI"
+      "kickoff": "2026-11-01T21:25Z",
+      "kickoff_display": "Sun, Nov 1, 4:25 PM EST",
+      "display": "@ MIA — Sun, Nov 1, 4:25 PM EST"
     },
     "NYJ": {
       "division": "AFC East",
@@ -282,17 +281,16 @@
         "conference_seed": null,
         "division_rank": 2,
         "division_record": "4-3",
-        "mode": "final",
-        "opponent": "CHI",
-        "opponent_name": "Chicago Bears",
-        "opponent_logo": "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/logos/chi.png",
-        "home_logo": "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/logos/chi.png",
+        "mode": "upcoming",
+        "opponent": "MIA",
+        "opponent_name": "Miami Dolphins",
+        "opponent_logo": "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/logos/mia.png",
+        "home_logo": "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/logos/mia.png",
         "away_logo": "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/logos/ne.png",
         "home_away": "away",
-        "team_score": 24,
-        "opp_score": 30,
-        "result": "L",
-        "display": "Final: 24-30 vs CHI"
+        "kickoff": "2026-11-01T21:25Z",
+        "kickoff_display": "Sun, Nov 1, 4:25 PM EST",
+        "display": "@ MIA — Sun, Nov 1, 4:25 PM EST"
       },
       {
         "abbr": "NYJ",
