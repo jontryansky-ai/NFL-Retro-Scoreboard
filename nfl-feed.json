@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T12:51:03.418Z",
+  "updated_at": "2026-11-10T20:08:44.305Z",
   "teams": {
     "DEN": {
       "division": "AFC West",
@@ -90,17 +90,16 @@
       "conference_seed": null,
       "division_rank": 1,
       "division_record": "7-1",
-      "mode": "final",
-      "opponent": "MIN",
-      "opponent_name": "Minnesota Vikings",
-      "opponent_logo": "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/logos/min.png",
-      "home_logo": "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/logos/min.png",
+      "mode": "upcoming",
+      "opponent": "NYJ",
+      "opponent_name": "New York Jets",
+      "opponent_logo": "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/logos/nyj.png",
+      "home_logo": "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/logos/nyj.png",
       "away_logo": "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/logos/buf.png",
       "home_away": "away",
-      "team_score": 23,
-      "opp_score": 6,
-      "result": "W",
-      "display": "Final: 23-6 vs MIN"
+      "kickoff": "2026-11-15T18:00Z",
+      "kickoff_display": "Sun, Nov 15, 1:00 PM EST",
+      "display": "@ NYJ — Sun, Nov 15, 1:00 PM EST"
     },
     "MIA": {
       "division": "AFC East",
@@ -261,17 +260,16 @@
         "conference_seed": null,
         "division_rank": 1,
         "division_record": "7-1",
-        "mode": "final",
-        "opponent": "MIN",
-        "opponent_name": "Minnesota Vikings",
-        "opponent_logo": "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/logos/min.png",
-        "home_logo": "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/logos/min.png",
+        "mode": "upcoming",
+        "opponent": "NYJ",
+        "opponent_name": "New York Jets",
+        "opponent_logo": "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/logos/nyj.png",
+        "home_logo": "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/logos/nyj.png",
         "away_logo": "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/logos/buf.png",
         "home_away": "away",
-        "team_score": 23,
-        "opp_score": 6,
-        "result": "W",
-        "display": "Final: 23-6 vs MIN"
+        "kickoff": "2026-11-15T18:00Z",
+        "kickoff_display": "Sun, Nov 15, 1:00 PM EST",
+        "display": "@ NYJ — Sun, Nov 15, 1:00 PM EST"
       },
       {
         "abbr": "NE",
