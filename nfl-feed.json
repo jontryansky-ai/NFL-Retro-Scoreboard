@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-09T22:42:23.098Z",
+  "updated_at": "2026-11-10T04:19:43.437Z",
   "teams": {
     "DEN": {
       "division": "AFC West",
@@ -90,16 +90,20 @@
       "conference_seed": null,
       "division_rank": 1,
       "division_record": "6-1",
-      "mode": "upcoming",
+      "mode": "live",
       "opponent": "MIN",
       "opponent_name": "Minnesota Vikings",
       "opponent_logo": "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/logos/min.png",
       "home_logo": "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/logos/min.png",
       "away_logo": "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/logos/buf.png",
       "home_away": "away",
-      "kickoff": "2026-11-10T01:15Z",
-      "kickoff_display": "Mon, Nov 9, 8:15 PM EST",
-      "display": "@ MIN — Mon, Nov 9, 8:15 PM EST"
+      "team_score": 0,
+      "opp_score": 0,
+      "status_detail": "3:22 - 4th",
+      "down_distance": null,
+      "line_of_scrimmage": null,
+      "last_play": null,
+      "display": "vs MIN: 0-0 · 3:22 - 4th"
     },
     "MIA": {
       "division": "AFC East",
@@ -260,16 +264,20 @@
         "conference_seed": null,
         "division_rank": 1,
         "division_record": "6-1",
-        "mode": "upcoming",
+        "mode": "live",
         "opponent": "MIN",
         "opponent_name": "Minnesota Vikings",
         "opponent_logo": "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/logos/min.png",
         "home_logo": "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/logos/min.png",
         "away_logo": "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/logos/buf.png",
         "home_away": "away",
-        "kickoff": "2026-11-10T01:15Z",
-        "kickoff_display": "Mon, Nov 9, 8:15 PM EST",
-        "display": "@ MIN — Mon, Nov 9, 8:15 PM EST"
+        "team_score": 0,
+        "opp_score": 0,
+        "status_detail": "3:22 - 4th",
+        "down_distance": null,
+        "line_of_scrimmage": null,
+        "last_play": null,
+        "display": "vs MIN: 0-0 · 3:22 - 4th"
       },
       {
         "abbr": "NE",
